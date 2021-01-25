@@ -1,0 +1,557 @@
+/*Start Media*/
+
+@media screen and (max-width:767px) {
+    p {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+    span {
+        font-size: 14px;
+    }
+    /*Start Landing*/
+    .landing {
+        height: 300px;
+    }
+    .menu {
+        cursor: pointer;
+        position: relative;
+        display: block;
+    }
+    .menu::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        display: block;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid #9c27b0;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        z-index: 20;
+        top: 20px;
+        left: 5px;
+        display: none;
+    }
+    .menu.show::after {
+        display: block;
+    }
+    .menu span {
+        display: block;
+        width: 30px;
+        height: 4px;
+        margin-bottom: 5px;
+        background-color: #9c27b0;
+    }
+    .menu-content {
+        position: absolute;
+        width: 100%;
+        top: 52px;
+        height: 220px;
+        background-color: #9c27b0;
+        margin-right: 10px;
+        display: none;
+    }
+    .menu-content .menu-links li {
+        color: #fff;
+        display: block;
+        padding: 5px 0px;
+    }
+    .menu-content .menu-links li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0px 10px;
+        text-transform: uppercase;
+        transition: padding 0.5s ease-in-out;
+    }
+    .menu-content .menu-links li a:hover {
+        padding-left: 30px;
+    }
+    .menu span {
+        display: block;
+        margin-right: 10px;
+    }
+    .header .nav-links {
+        display: none;
+    }
+    .menu::after {
+        display: none;
+    }
+    .menu.show::after {
+        display: block;
+    }
+    .menu-content {
+        padding: 5px 0px;
+        display: none;
+    }
+    .menu-content.show {
+        display: block;
+    }
+    .landing-content-title {
+        font-size: 12px;
+        text-transform: capitalize;
+    }
+    .landing-content-desc {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    /*End Landing*/
+    /*Start about-us*/
+    .about-us {
+        padding: 40px 0px;
+    }
+    .about-us-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .about-us-item:first-of-type {
+        text-align: center;
+    }
+    /*End about-us*/
+    /*Start Our-Services*/
+    .our-services {
+        padding: 10px 0px;
+        height: 900px;
+    }
+    .our-services h2 {
+        margin-top: 0;
+        text-align: center;
+    }
+    .our-services-content {
+        flex-direction: column;
+    }
+    .our-services-content .our-services-item {
+        margin-right: 0px;
+    }
+    .our-services-item i {
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+        margin-bottom: 10px;
+    }
+    /* .our-team-content .our-team-item .our-team-img .overlay i {
+        bottom: -550px;
+    }*/
+    .our-services-item .our-services-item h3 {
+        margin-bottom: 0px;
+        font-size: 17px;
+    }
+    .our-services-item p {
+        font-size: 13px;
+    }
+    /*End Our-Services*/
+    /*Start our-team*/
+    .our-team-content {
+        flex-direction: column;
+    }
+    .our-team-content .our-team-item {
+        width: 80%;
+    }
+    /*End our-team*/
+    /*Start Price Plan*/
+    .price-plan-content {
+        flex-direction: column;
+    }
+    .price-plan-item {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    /*End Price Plan*/
+    /*Start Testimonials*/
+    .testimonials-content {
+        flex-direction: column;
+    }
+    .testimonials-item {
+        margin-bottom: 70px;
+    }
+    .testimonials .testimonials-item div {
+        top: -50px;
+    }
+    /*End Testimonials*/
+    /*Start Form*/
+    .form-content {
+        flex-direction: column;
+    }
+    .form-item {
+        width: 100%;
+    }
+    .form .form-item:first-of-type {
+        width: 80%;
+        margin-right: 0;
+        padding-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .form .form-item:nth-of-type(2) {
+        width: 80%;
+        margin-left: 0%;
+        margin-bottom: 35px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    /*End Form*/
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    /*Start Landing*/
+    .landing {
+        height: 500px;
+    }
+    .menu {
+        cursor: pointer;
+        position: relative;
+        display: block;
+    }
+    .menu.show::after {
+        display: block;
+    }
+    .menu::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        display: block;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid #9c27b0;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        z-index: 20;
+        top: 20px;
+        left: 5px;
+        display: none;
+    }
+    .menu span {
+        display: block;
+        width: 30px;
+        height: 4px;
+        margin-bottom: 5px;
+        background-color: #9c27b0;
+    }
+    .menu-content {
+        position: absolute;
+        width: 100%;
+        top: 52px;
+        height: 220px;
+        background-color: #9c27b0;
+        margin-right: 10px;
+        display: none;
+    }
+    .menu-content .menu-links li {
+        color: #fff;
+        display: block;
+        padding: 5px 0px;
+    }
+    .menu-content .menu-links li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0px 10px;
+        text-transform: uppercase;
+        transition: padding 0.5s ease-in-out;
+    }
+    .menu-content .menu-links li a:hover {
+        padding-left: 30px;
+    }
+    .menu span {
+        display: block;
+        margin-right: 10px;
+    }
+    .header .nav-links {
+        display: none;
+    }
+    .menu::after {
+        display: none;
+    }
+    .menu.show::after {
+        display: block;
+    }
+    .menu-content {
+        padding: 5px 0px;
+        display: none;
+    }
+    .menu-content.show {
+        display: block;
+    }
+    .menu span {
+        display: block;
+        margin-right: 10px;
+    }
+    .header .nav-links {
+        display: none;
+    }
+    .menu::after {
+        display: none;
+    }
+    .menu-content {
+        padding: 5px 0px;
+        display: none;
+    }
+    .menu-content.show {
+        display: block;
+    }
+    /*End Landing*/
+    /*Start about-us*/
+    .about-us {
+        padding: 40px 0px;
+    }
+    .about-us-content {
+        flex-direction: column;
+    }
+    .about-us-item:first-of-type {
+        text-align: center;
+        margin-top: 20px;
+    }
+    /*End about-us*/
+    /*Start Our-Services*/
+    .our-services {
+        height: 500px;
+    }
+    .our-services h2 {
+        text-align: center;
+    }
+    .our-services-content .our-services-item {
+        margin-right: 0px;
+    }
+    /*End Our-Services*/
+    /*Start our-team*/
+    .our-team-content {
+        margin-left: 20px;
+    }
+    .our-team-content .our-team-item {
+        margin-right: 20px;
+        width: 50%;
+    }
+    .our-team-content .our-team-item h3 {
+        font-size: 17px;
+    }
+    /*.our-team-content .our-team-item .our-team-img .overlay i {
+        bottom: -240px;
+    }*/
+    /*End our-team*/
+    /*Start Price Plan*/
+    .price-plan-content {
+        flex-direction: column;
+    }
+    .price-plan-item {
+        width: 90%;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    /*End Price Plan*/
+    /*Start Testimonials*/
+    .testimonials-content {
+        margin-left: 20px;
+    }
+    .testimonials-item {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .testimonials-item p {
+        line-height: 1;
+    }
+    .testimonials .testimonials-item div {
+        top: -50px;
+        left: 16%;
+    }
+    /*End Testimonials*/
+    /*Start Form*/
+    .form-content {
+        flex-direction: column;
+    }
+    .form-item {
+        width: 100%;
+    }
+    .form .form-item:first-of-type {
+        width: 80%;
+        margin-right: 0;
+        padding-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .form .form-item:nth-of-type(2) {
+        width: 80%;
+        margin-left: 0%;
+        margin-bottom: 35px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    /*Start Landing*/
+    .landing {
+        height: 500px;
+    }
+    .menu {
+        cursor: pointer;
+        position: relative;
+        display: block;
+    }
+    .menu.show::after {
+        display: block;
+    }
+    .menu::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        display: block;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid #9c27b0;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        z-index: 20;
+        top: 20px;
+        left: 5px;
+        display: none;
+    }
+    .menu span {
+        display: block;
+        width: 30px;
+        height: 4px;
+        margin-bottom: 5px;
+        background-color: #9c27b0;
+    }
+    .menu-content {
+        position: absolute;
+        width: 100%;
+        top: 52px;
+        height: 220px;
+        background-color: #9c27b0;
+        margin-right: 10px;
+        display: none;
+    }
+    .menu-content .menu-links li {
+        color: #fff;
+        display: block;
+        padding: 5px 0px;
+    }
+    .menu-content .menu-links li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0px 10px;
+        text-transform: uppercase;
+        transition: padding 0.5s ease-in-out;
+    }
+    .menu-content .menu-links li a:hover {
+        padding-left: 30px;
+    }
+    .menu span {
+        display: block;
+        margin-right: 10px;
+    }
+    .header .nav-links {
+        display: none;
+    }
+    .menu::after {
+        display: none;
+    }
+    .menu.show::after {
+        display: block;
+    }
+    .menu-content {
+        padding: 5px 0px;
+        display: none;
+    }
+    .menu-content.show {
+        display: block;
+    }
+    .menu span {
+        display: block;
+        margin-right: 10px;
+    }
+    .header .nav-links {
+        display: none;
+    }
+    .menu::after {
+        display: none;
+    }
+    .menu-content {
+        padding: 5px 0px;
+        display: none;
+    }
+    .menu-content.show {
+        display: block;
+    }
+    /*End Landing*/
+    /*Start about-us*/
+    .about-us {
+        padding: 40px 0px;
+    }
+    .about-us-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .about-us-item:first-of-type {
+        text-align: center;
+        margin-top: 20px;
+    }
+    /*End about-us*/
+    /*Start Our-Services*/
+    .our-services h2 {
+        text-align: center;
+    }
+    .our-services-content .our-services-item {
+        margin-right: 0px;
+    }
+    /*End Our-Services*/
+    /*Start our-team*/
+    .our-team-content .our-team-item {
+        margin-right: 20px;
+    }
+    /*.our-team-content .our-team-item .our-team-img .overlay i {
+        bottom: -275px;
+    }*/
+    /*End our-team*/
+    /*Start Price Plan*/
+    .price-plan-item {
+        margin-right: 20px;
+    }
+    /*End Price Plan*/
+    /*Start Testimonials*/
+    .testimonials-content {
+        margin-left: 20px;
+    }
+    .testimonials-item {
+        margin-right: 20px;
+    }
+    .testimonials .testimonials-item div {
+        top: -55px;
+        left: 25%;
+    }
+    /*End Testimonials*/
+    /*Start Form*/
+    .form-content {
+        flex-direction: column;
+    }
+    .form-item {
+        width: 100%;
+    }
+    .form .form-item:first-of-type {
+        width: 80%;
+        margin-right: 0;
+        padding-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .form .form-item:nth-of-type(2) {
+        width: 80%;
+        margin-left: 0%;
+        margin-bottom: 35px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+/*End Media*/
